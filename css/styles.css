@@ -1,1 +1,18 @@
 
+#container {
+  margin: 0 auto;
+}
+
+.bigImage img {
+  width: 50%;
+}
+
+.thumbnails {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.thumbnails img {
+  width: 80%;
+}
