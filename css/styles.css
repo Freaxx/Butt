@@ -10,10 +10,11 @@
 .thumbnails {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .thumbnails img {
   width: 50%;
   height: 50%;
+  margin: 10px;
 }
