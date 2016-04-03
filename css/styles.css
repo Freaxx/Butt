@@ -1,6 +1,6 @@
 
 body {
-  background-image: url("imamges/bg.jpg") repeat-x;
+  background-image: url("images/bg.jpg") repeat;
 }
 
 #container {
@@ -25,7 +25,8 @@ body {
 }
 
 .thumbnails img {
-  width: 50%;
-  height: 50%;
-  margin: 10px;
+  width: 40%;
+  height: 40%;
+  margin: 2px;
+  border: 3px solid black;
 }
