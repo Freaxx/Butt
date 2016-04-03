@@ -1,16 +1,27 @@
 
+body {
+  background-image: url("imamges/bg.jpg") repeat-x;
+}
+
 #container {
   margin: 0 auto;
 }
 
+.bigImage {
+  float: left;
+}
+
 .bigImage img {
-  width: 50%;
+  width: 30%;
+  border: 5px solid black;
+  margin: 0 auto;
 }
 
 .thumbnails {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
+  float: right;
 }
 
 .thumbnails img {
