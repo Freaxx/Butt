@@ -23,8 +23,3 @@ body {
   height: 100px;
 }
 
-@media screen (max-width: 640px;) {
-  .space {
-    height: 30px;
-  }
-}
