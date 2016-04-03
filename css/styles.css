@@ -14,8 +14,8 @@ body {
 }
 
 .thumbnails img {
-  
-  margin: 2px;
+  width: 56%;
+  margin: 3px;
   border: 3px solid black;
 }
 
