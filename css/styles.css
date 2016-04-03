@@ -7,21 +7,14 @@ body {
   margin: 0 auto;
 }
 
-.bigImage {
-  float: left;
-}
-
 .bigImage img {
-  width: 30%;
   border: 5px solid black;
-  margin: 0 auto;
 }
 
 .thumbnails {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  float: right;
 }
 
 .thumbnails img {
