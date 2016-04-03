@@ -1,0 +1,48 @@
+
+body {
+	background: url(../images/bg.png) repeat #000000 !important;}
+
+.hidden {
+	display: none;
+}
+
+.bigImage img {
+  border: 5px solid #282828;
+}
+
+
+.thumbnails img {
+  width: 56.5%;
+  border: 4px solid #282828;
+
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+  -o-transition: .2s;
+  -ms-transition: .2s;
+  transition: .2s;
+}
+
+.thumbnails img:hover {
+	opacity: .6;
+}
+
+.space {
+  height: 50px;
+}
+
+@media screen and (max-width: 640px) {
+
+.space {
+  height: 10px;
+}
+
+.thumbnails {
+	margin-top: 20px;
+}
+
+.thumbnails img {
+	width: 100%;
+}
+
+}
+
