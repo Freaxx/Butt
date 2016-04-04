@@ -7,9 +7,13 @@ var thumbs = document.querySelectorAll('.thImage'), mainImage = document.querySe
 
 function changeImage() {
 	//console.log('working');
-	console.log(this.src);
+	//console.log(this.src);
 	//take thumbnail src image name and split it here "_"
-	//this.src
+	var thumbsrc = this.src;
+	thumbarr = thumbsrc.split("_");
+	//console.log(thumbarr[1]);
+	mainImage.src = "images/bimg_" + thumbarr[1];
+	//console.log(mainImage.src);
 }
 
 //Event Listeners
